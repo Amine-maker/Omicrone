@@ -1,0 +1,110 @@
+/*css pour tableau des contrats*/
+table.filter {
+    border: 1px solid black ;
+    border-collapse: collapse;
+    width: 100%; 
+    text-align: center;
+    border-color: #DCDCDC;
+    font-family :initial;
+    border-radius: 20px;
+}
+
+tr.contrat{
+height: 50px;
+ background-image: repeating-linear-gradient(white, #B3B2B2 100px);
+  }
+
+tr {
+    height: 40px;
+}
+
+td{
+    width:500px;
+    text-align:center;
+}
+
+/*css pour les commentaires*/
+p.commentaire{
+    color : red;
+    font-family: cursive;
+    font-size: 13px;
+    font-style: italic;
+}
+
+span.commentaire{
+    font-weight: bold;
+}
+
+/*css pour le formulaire d'ajout*/
+.form-style-5{
+	max-width: 700px;
+/*	padding: 10px 20px;*/
+	margin: 10px auto;
+	padding: 20px;
+	background:#f5f5f5;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+	border: none;
+}
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style-5 label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.form-style-5 input[type="submit"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+        margin: 0 auto;
+        background-image: repeating-linear-gradient(#d9d4d4, #cccaca 100px);
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #d9d4d4;
+	border-width: 1px 1px 3px;
+        border-radius: 12px 12px 12px 12px;
+	margin-bottom: 10px;
+        color: #FFF;
+}
+.form-style-5 input[type="submit"]:hover
+{
+    background-image: repeating-linear-gradient(#e8e8e8, #cccaca 100px);
+}
+
+.form-style-5 input[type="number"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.select.select
+{
+    border-radius: 14px 14px 14px 14px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+div.left {
+    float: left;
+    left:5px; 
+    width: 50%; 
+    height:100%; 
+}
+
+
+div.right{
+    margin-left: 15%;
+/*    float: right;*/
+/*    width: 45%; 
+    right: 5px;*/
+}
